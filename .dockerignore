@@ -1,0 +1,21 @@
+# Ignore Python cache
+__pycache__
+.pytest_cache
+
+# Ignore version control directories
+.git
+.gitignore
+
+# Ignore local development artifacts
+mlruns
+.idea
+.vscode
+data
+*.log
+*.tmp
+*.env
+
+# Ignore test artefacts
+coverage
+.coverage
+.cache
